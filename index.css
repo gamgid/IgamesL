@@ -1,0 +1,221 @@
+html, body, p{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#h11{
+  font-size: 62pt;
+  padding-left: 20%;
+  top: 17%;
+  position: absolute;
+  color: white;
+}
+
+#div2{
+  background-color: #f2d38f;
+  padding: 10px;
+}
+#div3{
+  background-color: #986d64;
+  padding: 10px;
+  color: white;
+}
+#div4{
+  background-color: #a47666;
+  padding: 10px;
+  color: white;
+}
+#div5{
+  background-color: #76626d;
+  padding: 10px;
+  color: white;
+}
+#div6{
+  background-color: #da9f59;
+  padding: 10px;
+}
+#div7{
+  background-color: #f2d38f;
+  padding: 10px;
+}
+#div8{
+  background-color: #986d64;
+  padding: 10px;
+  color: white;
+}
+#div9{
+  background-color: #a47666;
+  padding: 10px;
+  color: white;
+}
+#div10{
+  background-color: #76626d;
+  padding: 10px;
+  color: white;
+}
+#div11{
+  background-color: #da9f59;
+  padding: 10px;
+}
+#div12{
+  background-color: #a47666;
+  padding: 10px;
+  color: white;
+}
+#div13{
+  background-color: #f2d38f;
+  padding: 10px; 
+}
+#div14{
+  background-color: #986d64;
+  padding: 10px;
+  color: white;
+}
+#div15{
+  background-color: #a47666;
+  padding: 10px;
+  color: white;
+}
+#div16{
+  background-color: #f2d38f;
+  padding: 10px;
+}
+#div17{
+  background-color: #76626d;
+  padding: 10px;
+  color: white;
+}
+#videofor{
+  text-align: center;
+}
+#wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#textst{
+  background-color: rgba(22, 50, 100, 0.4);
+  text-align: right;
+  color: #fff;
+  float: right;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  font-size: 30pt;
+  text-align: center;
+  padding: 15px;
+  width: 500px;
+}
+
+#div1{
+  position: relative;
+  background-image: url("photo/photo1.jpg");
+	height: 500px;
+}
+#span1{
+  color: yellow;
+}
+#text2{
+  padding-left: 17%;
+  padding-right: 15%;
+  font-size: 15pt;
+}
+#textpho{
+  float: left;
+  width: 20%;
+  margin-left: 2%;
+}
+#textpho1{
+  margin-left: 17%;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+}
+#text3{
+  padding-left: 5%;
+  font-size: 15pt;
+}
+#imgid1{
+  width: 50%;
+}
+#imgid2{
+  width: 75%;
+}
+#text4{
+  padding-left: 17%;
+  font-size: 15pt;
+}
+strong{
+  font-size: 20pt;
+}
+#toTop {
+  transition: all .5s;
+  width:100px;
+  height: 100px;
+  position:fixed;
+  bottom:15px; /* отступ кнопки от нижнего края страницы*/
+  left:15px;
+  cursor:pointer;
+  display: none;
+  color: #333;
+  opacity: .6;
+}
+
+#toTop:hover{
+  transition:all .5s;
+  opacity: .8;
+}
+
+#next{
+  transition: all .5s;
+  width:100px;
+  height: 50px;
+  position:fixed;
+  left: 49%;
+  bottom:15px; /* отступ кнопки от нижнего края страницы*/
+  cursor:pointer;
+  /*display: none;*/
+  color: #333;
+  opacity: .4;
+}
+
+#next:hover{
+  opacity: 0.7;
+}
+
+#text7{
+  padding-left: 17%;
+  font-size: 15pt;
+  padding-right: 15%;
+}
+#text6{
+  padding-left: 17%;
+}
+#photoform{
+  padding-left: 25%;
+  width: 50%;
+}
+
+#form123 label{
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 30px;
+  margin: 5px 10px;
+  background-color: rgb(73, 115, 230);
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid rgb(50, 70, 200);
+  transition: all 0.5s ease-out;
+}
+
+#form123 input[type="radio"]{
+    display: none;
+}
+
+#form123 input[type="radio"]:checked+label {
+    background-color: rgb(73, 230, 131);
+    border: 1px solid #1CA92E;
+}
